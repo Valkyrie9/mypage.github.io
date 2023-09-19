@@ -1,0 +1,272 @@
+.display,.secondline{
+    display: flex;
+    margin-left: 10px;
+}
+.searchbox{
+    margin-left: 150px;
+    border: 3px ;
+        background: rgb(247, 247, 247);
+        border-width: 0px 0px 0px 1px;
+        border-top-style: initial;
+        border-right-style: initial;
+        border-bottom-style: initial;
+        border-top-color: initial;
+        border-right-color: initial;
+        border-bottom-color: initial;
+        border-image: initial;
+        border-left-style: solid;
+        border-left-color: rgba(36, 39, 44, 0.1);
+        border-radius: 4px 0px 0px 4px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px 0px inset;
+        color: rgb(36, 39, 44);
+        font-size: 14px;
+        height: 50px;
+        line-height: 18px;
+        padding: 0px 20px;
+        text-overflow: ellipsis;
+        width: 30%;
+        cursor: text;
+        outline: none;
+}
+#logo{
+    width:172px;
+    height: 42px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.search{
+    width: 50px;
+    background: black;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-radius: 0px 4px 4px 4px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+}
+#magnifyicon{
+    position: absolute;
+    left: 778px;
+    text-align: center;
+    z-index: +1;
+    margin-top: 17px;
+    font-size: 18px;
+}
+#kang{
+    margin-left: 150px;
+    border: none;
+    text-decoration: underline;
+    outline: none;
+    cursor: pointer;
+}
+#kang option:hover{
+    outline: none;
+}
+#heart{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: larger;
+}
+#user{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: larger;
+}
+#butt{
+    border: none;
+    margin-top: 5px;
+    font-size: 15px ;
+}
+.newcars,.usedcar,.news{
+    outline: none;
+    margin-left: 30px;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+}
+.newcars{
+    width: 110px;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 10%;
+    left: 77%;
+    height: 380px;
+    width: 280px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+  }
+  .overlay > h3{
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  .lol{
+    width: 120px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 15px;
+    font-size: large;
+    margin-top: -60px;
+  }
+  #budget,#usedy{
+    color: black;
+    font-size: 60px;
+    width: 30px;
+    height: 15px;
+  }
+  .rad{
+    font-family:  serif;
+    font-weight: bold;
+  }
+ .bat{
+    width: 270px;
+    height: 50px;
+    text-align: left;
+    cursor: text;
+ } 
+.sir{
+    margin-top: 15px;
+    width: 270px;
+    height: 40px;
+    background: rgba(57,51,140,255);
+    color: white;
+}
+.difsec{
+    display: block;
+    margin-left: 20px;
+    height: 400px;
+    box-shadow: black 0px 0px 2px 0px inset;
+    position: relative; 
+}
+.h2{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.myfoot{
+    display: inline;
+}
+.nexo{
+    width: 1360px;
+}
+.nexoncar, .glanzacar, .wvcar, .bmwcar, .nexonev, .volvoev, .porscheev, .bmwev{
+    display: inline-block;
+}
+.mostsearched, .latestcar{
+    border: 2px transparent black;
+    border-style: groove;
+    padding:0px 20px 0px 25px;
+    height: 400px;
+}
+.h2{
+    text-align: center;
+    font-size: 30px;
+}
+.tataname{
+    margin-left: 20px ;
+}
+.carimage{
+    height: 200px;
+    width: 300px;
+    padding: 0px 15px 0px 0px;
+}
+.tataname{
+    margin-left: 10px;
+    margin-bottom: -20px;
+    margin-top: 5px;
+}
+.tataprice{
+    margin-left: 10px;
+}
+@media (max-width:375px) {
+    .mostsearched{
+        height: 1200px;
+        margin-left: 35px;
+        width: 300px;
+    }
+}
+@media (max-width : 425px){
+    .searchbox,.search,#kang, #heart, #magnifyicon{
+        display: none;
+    }
+    .secondline{
+        display: grid;
+        text-align: center;
+        padding: 30px;
+    }
+    .nexo{
+        width:600px;
+        height: 300px;
+    }
+    .overlay{
+        margin-left: -180px;
+        background-color: white;
+        height: 310px;
+    }
+    .image-container{
+        height: 1px;
+    }
+    .overlay > h3 >.rad{
+        margin-top: -10px;
+    }
+    h3{
+        margin-top: -10px;
+    }
+    .sir{
+        margin-top: -10px;
+    }
+    .mostsearched{
+       display: inline-block;
+       width: 500px;
+    }
+}
+
+@media (max-width:768px){
+    .searchbox{
+        width: 150px;
+        margin-left: 20px;
+    }
+    #logo{
+        width: 140px;
+        margin-left: 0px;
+    }
+    #magnifyicon{
+        margin-left: -200px;
+    
+    }
+    #kang{
+        margin-left: 40px;
+    }
+    .overlay{
+        left: 230px;
+    }
+    .mostsearched{
+        height: 630px;
+        padding: 0px 0px 0px 45px;
+    }
+}
+@media (max-width:1024px){
+    .mostsearched{
+        width: 1024px;
+        height: 620px;
+    }
+    #magnifyicon{
+        left: 540px;
+        color: black;
+        background-color: black;
+        background: black;
+    }
+}
